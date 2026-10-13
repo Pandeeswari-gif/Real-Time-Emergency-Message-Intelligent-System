@@ -1,0 +1,224 @@
+{
+  "split_strategy": "template-grouped split",
+  "sklearn_version": "1.8.0",
+  "trained_at": "2026-09-28 09:48:14",
+  "dataset_size": 1493,
+  "train_size": 1206,
+  "test_size": 287,
+  "num_features": 4080,
+  "spacy_lemmatizer": true,
+  "labels": [
+    "Accident",
+    "Crime",
+    "Earthquake",
+    "Fire",
+    "Flood",
+    "Medical Emergency",
+    "Other",
+    "Rescue"
+  ],
+  "class_counts": {
+    "Accident": 211,
+    "Medical Emergency": 207,
+    "Fire": 203,
+    "Rescue": 188,
+    "Crime": 184,
+    "Flood": 176,
+    "Other": 167,
+    "Earthquake": 157
+  },
+  "priority_counts": {
+    "Critical": 473,
+    "High": 463,
+    "Medium": 306,
+    "Low": 251
+  },
+  "accuracy": 0.9198606271777003,
+  "precision": 0.923494093779122,
+  "recall": 0.9198606271777003,
+  "f1_score": 0.9193238955231514,
+  "macro_f1": 0.917771905652924,
+  "cv_accuracy_mean": 0.893018072082576,
+  "cv_accuracy_std": 0.05046704552419434,
+  "classification_report": {
+    "Accident": {
+      "precision": 0.8913043478260869,
+      "recall": 1.0,
+      "f1-score": 0.9425287356321839,
+      "support": 41.0
+    },
+    "Crime": {
+      "precision": 0.9487179487179487,
+      "recall": 0.9024390243902439,
+      "f1-score": 0.925,
+      "support": 41.0
+    },
+    "Earthquake": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Fire": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 45.0
+    },
+    "Flood": {
+      "precision": 1.0,
+      "recall": 0.8387096774193549,
+      "f1-score": 0.9122807017543859,
+      "support": 31.0
+    },
+    "Medical Emergency": {
+      "precision": 0.9047619047619048,
+      "recall": 0.9743589743589743,
+      "f1-score": 0.9382716049382716,
+      "support": 39.0
+    },
+    "Other": {
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8125,
+      "support": 30.0
+    },
+    "Rescue": {
+      "precision": 0.875,
+      "recall": 0.7567567567567568,
+      "f1-score": 0.8115942028985508,
+      "support": 37.0
+    },
+    "accuracy": 0.9198606271777003,
+    "macro avg": {
+      "precision": 0.9230612604573603,
+      "recall": 0.9173663874489996,
+      "f1-score": 0.917771905652924,
+      "support": 287.0
+    },
+    "weighted avg": {
+      "precision": 0.923494093779122,
+      "recall": 0.9198606271777003,
+      "f1-score": 0.9193238955231514,
+      "support": 287.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      37,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      26,
+      1,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      26,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      3,
+      4,
+      28
+    ]
+  ],
+  "priority_rules": {
+    "accuracy": 0.9497655726724715,
+    "labels": [
+      "Critical",
+      "High",
+      "Medium",
+      "Low"
+    ],
+    "confusion_matrix": [
+      [
+        462,
+        11,
+        0,
+        0
+      ],
+      [
+        4,
+        459,
+        0,
+        0
+      ],
+      [
+        4,
+        32,
+        251,
+        19
+      ],
+      [
+        0,
+        0,
+        5,
+        246
+      ]
+    ],
+    "samples": 1493
+  }
+}

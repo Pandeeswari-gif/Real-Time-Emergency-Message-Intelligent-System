@@ -1,0 +1,10 @@
+# Streamlit theme for EmergencyNLP (light theme with a red accent)
+[theme]
+base = "light"
+primaryColor = "#C62839"
+backgroundColor = "#F3F5F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14202E"
+
+[browser]
+gatherUsageStats = false
